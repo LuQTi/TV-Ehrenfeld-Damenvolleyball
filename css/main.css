@@ -533,6 +533,10 @@ form button .icon {
     color: #555;
 }
 
+.alternativ-kontakt a {
+    display: block;
+}
+
 
 /* =========================
    DESKTOP HOVER EFFEKTE
