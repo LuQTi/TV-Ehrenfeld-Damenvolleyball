@@ -503,7 +503,7 @@ ${message}`;
 
 
         window.location.href =
-        `mailto:romanciupke@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        `mailto:tve.damenvolleyball@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
 
     });
