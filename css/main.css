@@ -535,6 +535,10 @@ form button .icon,
     color: #555;
 }
 
+#secure-mail-link {
+    display: inline-flex;
+}
+
 
 /* =========================
    DESKTOP HOVER EFFEKTE
