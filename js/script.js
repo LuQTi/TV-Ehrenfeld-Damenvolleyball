@@ -457,6 +457,20 @@ if(teamSelect && typeof teams !== "undefined"){
 
 }
 
+// Verhindert, dass Spam-Bots die E-Mail-Adresse im HTML finden
+document.addEventListener("DOMContentLoaded", function() {
+    const mailLink = document.getElementById("secure-mail-link");
+    if (mailLink) {
+        const user = "tve.damenvolleyball";
+        const domain = "gmail";
+        
+        // Erst beim Laden der Seite im Browser wird der Link zusammengebaut
+        mailLink.href = "mailto:" + user + "@" + domain;
+        mailLink.textContent = "E-Mail an TVE Damenvolleyball";
+    }
+});
+
+
 
 
 
