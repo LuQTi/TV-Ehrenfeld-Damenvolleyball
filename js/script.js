@@ -462,7 +462,7 @@ if(teamSelect && typeof teams !== "undefined"){
 
 /* =========================
    KONTAKTFORMULAR
-========================= */
+========================= 
 
 
 const contactForm = document.getElementById("contactForm");
@@ -508,7 +508,7 @@ ${message}`;
 
     });
 
-}
+}*/
 
 /* =========================
    MODAL (ÖFFNEN, SCHLIESSEN & SCROLL-SPERRE)
