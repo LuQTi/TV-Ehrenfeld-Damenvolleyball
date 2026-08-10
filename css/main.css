@@ -476,7 +476,8 @@ form button {
 
 }
 
-form button .icon {
+form button .icon,
+#secure-mail-link .icon {
 
     width:16px;
     height:16px;
