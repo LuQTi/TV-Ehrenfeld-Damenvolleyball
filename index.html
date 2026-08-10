@@ -306,6 +306,7 @@ Kontakt
 
     <input
         id="name"
+		name="name"
         type="text"
         placeholder="Vor- und Nachname"
         required>
@@ -318,6 +319,7 @@ Kontakt
 
     <input
         id="email"
+		name="email"
         type="email"
         placeholder="E-Mail-Adresse"
         required>
@@ -328,7 +330,7 @@ Kontakt
         Mannschaft
     </label>
 
-    <select id="teamSelect" required>
+    <select id="teamSelect" name="teamSelect" required>
 
         <option value="">
             Mannschaft auswählen
@@ -344,6 +346,7 @@ Kontakt
 
     <input
         id="jahrgang"
+		name="jahrgang"
         type="number"
         placeholder="z.B. 2012">
 
@@ -353,7 +356,7 @@ Kontakt
         Volleyball-Erfahrung
     </label>
 
-    <select id="experience">
+    <select id="experience" name="experience">
 
         <option value="">
             Bitte auswählen
@@ -385,6 +388,7 @@ Kontakt
 
     <textarea
         id="message"
+		name="message"
         placeholder="Deine Nachricht an uns..."
         rows="6"></textarea>
 
@@ -394,6 +398,7 @@ Kontakt
 
     <input
         type="checkbox"
+		name="checkbox"
         required>
 
     <span>
@@ -404,7 +409,7 @@ Kontakt
 
 
 
-    <button type="submit">
+    <button type="submit" name="submit">
 
         <img src="icons/paper-plane.svg" class="icon" alt="">
 
