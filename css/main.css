@@ -521,6 +521,19 @@ form button .icon {
 
 }
 
+.alternativ-kontakt {
+    text-align: center;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.alternativ-kontakt p {
+    margin-bottom: 16px;
+    color: #555;
+}
+
+
 /* =========================
    DESKTOP HOVER EFFEKTE
 ========================= */
