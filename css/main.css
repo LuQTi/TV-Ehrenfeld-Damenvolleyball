@@ -455,7 +455,8 @@ textarea:focus {
 
 
 
-form button {
+form button,
+#secure-mail-link {
 
     display:flex;
     align-items:center;
