@@ -296,8 +296,17 @@ Kontakt
 </h2>
 
 
+<form id="contactForm" action="https://formsubmit.co/el/cazaze" method="POST">
 
-<form id="contactForm" action="https://form.taxi/s/wb976wp5" method="POST">
+    <!-- Technische Steuerung für FormSubmit -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Neues Probetraining - TV Ehrenfeld">
+    <input type="hidden" name="_next" value="https://luqti.github.io/TV-Ehrenfeld-Damenvolleyball/?">
+
+    <!-- UNSICHTBARER HONEYPOT (Das Design bleibt völlig unberührt) -->
+    <div style="display:none !important;">
+        <input type="text" name="_honey" autocomplete="off">
+    </div>
 
 
     <label for="name">
@@ -398,7 +407,6 @@ Kontakt
 
     <input
         type="checkbox"
-		name="checkbox"
         required>
 
     <span>
@@ -409,7 +417,7 @@ Kontakt
 
 
 
-    <button type="submit" name="submit">
+    <button type="submit">
 
         <img src="icons/paper-plane.svg" class="icon" alt="">
 
