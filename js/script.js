@@ -462,7 +462,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const mailLink = document.getElementById("secure-mail-link");
     if (mailLink) {
         const user = "tve.damenvolleyball";
-        const domain = "gmail";
+        const domain = "gmail.com";
         
         // Erst beim Laden der Seite im Browser wird der Link zusammengebaut
         mailLink.href = "mailto:" + user + "@" + domain;
