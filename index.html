@@ -2,6 +2,7 @@
 <html lang="de">
 
 <head>
+	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
@@ -12,481 +13,384 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mobile.css">
+	
 </head>
 
-
 <body>
+	
+	<header>
 
+    	<nav class="navbar">
 
-<header>
+        	<div class="logo">
 
-    <nav class="navbar">
+            	<img src="images/logo.png" alt="TV Ehrenfeld Logo">
 
-        <div class="logo">
+            	<span>Damenvolleyball</span>
 
-            <img src="images/logo.png" alt="TV Ehrenfeld Logo">
+        	</div>
 
-            <span>Damenvolleyball</span>
+        	<ul class="nav-links no-handy">
 
-        </div>
+            	<li>
+              		<a href="#home">Home</a>
+            	</li>
 
+            	<li>
+                	<a href="#teams">Teams</a>
+            	</li>
 
-        <ul class="nav-links no-handy">
+            	<li>
+                	<a href="#training">Trainingszeiten</a>
+            	</li>
 
-            <li>
-                <a href="#home">Home</a>
-            </li>
+            	<li>
+               		<a href="#kontakt">Kontakt</a>
+            	</li>
 
-            <li>
-                <a href="#teams">Teams</a>
-            </li>
+        	</ul>
 
-            <li>
-                <a href="#training">Trainingszeiten</a>
-            </li>
+        	<a href="https://www.turn-verein-ehrenfeld.de/de" target="_blank" rel="noopener noreferrer" class="btn-nav no-handy">
+           		Homepage
+        	</a>
 
-            <li>
-                <a href="#kontakt">Kontakt</a>
-            </li>
+    	</nav>
 
-        </ul>
+	</header>
+	
+	<main>
 
+		<section class="hero" id="home">
 
-        <a href="https://www.turn-verein-ehrenfeld.de/de" target="_blank" rel="noopener noreferrer" class="btn-nav no-handy">
-            Homepage
-        </a>
+    		<div class="hero-content">
 
+        		<h1>
+            		Damenvolleyball<br>
+            		TV Ehrenfeld
+        		</h1>
 
-    </nav>
+        		<p>
+            		Gemeinsam trainieren.
+            		Gemeinsam wachsen.
+            		Gemeinsam gewinnen.
+        		</p>
 
-</header>
+        		<div class="hero-buttons">
 
+            		<a href="#teams" class="btn-primary">
+                		Unsere Teams
+            		</a>
 
+            		<a href="#kontakt" class="btn-secondary">
+               	 		Probetraining
+            		</a>
 
-<main>
+        		</div>
 
+    		</div>
 
-<!-- HERO -->
+		</section>
 
-<section class="hero" id="home">
+		<section class="welcome">
 
+			<div class="container">
 
-    <div class="hero-content">
+				<h2>
+   			 		Willkommen beim TV Ehrenfeld
+				</h2>
 
+				<p>
+    				Die Damenvolleyball-Abteilung des TV Ehrenfeld bietet
+    				Volleyball für alle Altersklassen.
+   					Von der U12 bis zu den Damen steht bei uns
+    				Teamgeist, Entwicklung und Spaß am Sport im Mittelpunkt.
+				</p>
 
-        <h1>
-            Damenvolleyball<br>
-            TV Ehrenfeld
-        </h1>
+			</div>
 
+		</section>
 
-        <p>
-            Gemeinsam trainieren.
-            Gemeinsam wachsen.
-            Gemeinsam gewinnen.
-        </p>
+		<section id="teams" class="teams">
 
+			<div class="container">
 
-        <div class="hero-buttons">
+				<h2>
+					Unsere Teams
+				</h2>
 
-            <a href="#teams" class="btn-primary">
-                Unsere Teams
-            </a>
+				<div class="team-grid" id="teamContainer">
 
+				</div>
 
-            <a href="#kontakt" class="btn-secondary">
-                Probetraining
-            </a>
+			</div>
 
-        </div>
+		</section>
 
+		<section id="training" class="training no-handy">
 
-    </div>
+			<div class="container">
 
+				<h2>
+					Trainingszeiten
+				</h2>
 
-</section>
+				<div class="table-wrapper">
 
+					<table>
 
+						<thead>
 
+							<tr>
+								<th>Mannschaft</th>
+								<th>Training 1</th>
+								<th>Training 2</th>
+							</tr>
 
-<!-- WILLKOMMEN -->
+						</thead>
 
+						<tbody id="trainingContainer">
 
-<section class="welcome">
+						</tbody>
 
+					</table>
 
-<div class="container">
+				</div>
 
+			</div>
 
-<h2>
-    Willkommen beim TV Ehrenfeld
-</h2>
+		</section>
 
+		<section class="features no-handy">
 
-<p>
-    Die Damenvolleyball-Abteilung des TV Ehrenfeld bietet
-    Volleyball für alle Altersklassen.
-    Von der U12 bis zu den Damen steht bei uns
-    Teamgeist, Entwicklung und Spaß am Sport im Mittelpunkt.
-</p>
+			<div class="container">
 
+				<h2>
+					Warum Volleyball beim TV Ehrenfeld?
+				</h2>
 
-</div>
+				<div class="feature-grid">
 
+					<div>
 
-</section>
+						<img src="icons/users.svg" class="icon" alt="">
 
+						<h3>
+							Gemeinschaft
+						</h3>
 
+					</div>
 
+					<div>
 
-<!-- ================= TEAMS ================= -->
+						<img src="icons/volleyball.svg" class="icon" alt="">
 
-<section id="teams" class="teams">
+						<h3>
+							Teamgeist
+						</h3>
 
-<div class="container">
+					</div>
 
-<h2>
-Unsere Teams
-</h2>
+					<div>
 
+						<img src="icons/trophy.svg" class="icon" alt="">
 
-<div class="team-grid" id="teamContainer">
+						<h3>
+							Leidenschaft
+						</h3>
 
-</div>
+					</div>
 
+					<div>
 
-</div>
+						<img src="icons/heart.svg" class="icon" alt="">
 
-</section>
+						<h3>
+							Spaß
+						</h3>
 
-<!-- ================= TRAININGSZEITEN ================= -->
+					</div>
 
-<section id="training" class="training no-handy">
+				</div>
 
-<div class="container">
+			</div>
 
-<h2>
-Trainingszeiten
-</h2>
+		</section>
 
+		<section id="kontakt" class="contact">
 
-<div class="table-wrapper">
+			<div class="container">
 
-<table>
+				<h2>
+					Kontakt
+				</h2>
 
+				<form id="contactForm" action="https://formsubmit.co/acbd9f6ea58dcd55b1ffb26eba710a8e" method="POST">
 
-<thead>
+    				<input type="hidden" name="_captcha" value="false">
+    				<input type="hidden" name="_subject" value="Neues Probetraining - TV Ehrenfeld">
+    				<input type="hidden" name="_next" value="https://luqti.github.io/TV-Ehrenfeld-Damenvolleyball/">
+	
+    				<div style="display:none !important;">
+       					<input type="text" name="_honey" autocomplete="off">
+    				</div>
 
-<tr>
-<th>Mannschaft</th>
-<th>Training 1</th>
-<th>Training 2</th>
-</tr>
+    				<label for="name">
+       					Name
+    				</label>
 
-</thead>
+    				<input
+        				id="name"
+						name="name"
+        				type="text"
+        				placeholder="Vor- und Nachname"
+        				required>
 
+    				<label for="email">
+        				E-Mail
+    				</label>
 
-<tbody id="trainingContainer">
+    				<input
+        				id="email"
+						name="email"
+        				type="email"
+        				placeholder="E-Mail-Adresse"
+        				required>
 
+    				<label for="teamSelect">
+        				Mannschaft
+    				</label>
 
-</tbody>
+    				<select id="teamSelect" name="teamSelect" required>
 
+        				<option value="">
+            				Mannschaft auswählen
+        				</option>
 
-</table>
+    				</select>
 
-</div>
+    				<label for="jahrgang">
+       					Jahrgang
+    				</label>
 
+    				<input
+        				id="jahrgang"
+						name="jahrgang"
+        				type="number"
+        				placeholder="z.B. 2012">
 
-</div>
+    				<label for="experience">
+        				Volleyball-Erfahrung
+    				</label>
 
-</section>
+    				<select id="experience" name="experience">
 
+        				<option value="">
+            				Bitte auswählen
+        				</option>
 
-<!-- WARUM TVE -->
+        				<option>
+           					Anfängerin
+       					</option>
 
+        				<option>
+            				Erste Erfahrungen gesammelt
+        				</option>
 
-<section class="features no-handy">
+        				<option>
+            				Mehrjährige Erfahrung
+        				</option>
 
+        				<option>
+            				Aktive Spielerin
+        				</option>
 
-<div class="container">
+    				</select>
 
+    				<label for="message">
+        				Nachricht
+    				</label>
 
-<h2>
-Warum Volleyball beim TV Ehrenfeld?
-</h2>
+    				<textarea
+        				id="message"
+						name="message"
+        				placeholder="Deine Nachricht an uns..."
+        				rows="6">
+					</textarea>
+				
+					<label class="privacy">
+								
+    					<input
+        					type="checkbox"
+        					required>
 
+    					<span>
+        					Ich habe die <a href="pages/datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen.
+    					</span>
 
+					</label>
 
-<div class="feature-grid">
+    				<button type="submit">
 
+        				<img src="icons/paper-plane.svg" class="icon" alt="">
 
-<div>
+        				Nachricht senden
 
-<img src="icons/users.svg" class="icon" alt="">
+    				</button>
 
-<h3>
-Gemeinschaft
-</h3>
+				</form>
 
-</div>
+			</div>
 
+		</section>
 
+	</main>
 
-<div>
+	<footer>
 
-<img src="icons/volleyball.svg" class="icon" alt="">
+    	<div class="container">
 
-<h3>
-Teamgeist
-</h3>
+       		<h3>
+            	TV Ehrenfeld Damenvolleyball
+        	</h3>
 
-</div>
+        	<p>
+            	Gemeinsam trainieren. Gemeinsam wachsen. Gemeinsam gewinnen.
+        	</p>
 
+        	<div class="footer-links">        
 
+            	<a href="pages/impressum.html" target="_blank">
+                	Impressum
+            	</a>
 
+            	<a href="pages/datenschutz.html" target="_blank">
+                	Datenschutz
+            	</a>
 
-<div>
+	    		<a href="https://www.turn-verein-ehrenfeld.de/de" target="_blank" rel="noopener noreferrer">
+                	Vereinsseite
+            	</a>
 
-<img src="icons/trophy.svg" class="icon" alt="">
+        	</div>
 
-<h3>
-Leidenschaft
-</h3>
+    	</div>
 
-</div>
+	</footer>
 
+	<div class="modal no-scroll" id="teamModal">
+	
+    	<div class="modal-content">
+		
+        	<button class="close-modal">&times;</button>
 
+        	<div id="modalBody"></div>
 
+		</div>
+	
+	</div>
 
-<div>
-
-<img src="icons/heart.svg" class="icon" alt="">
-
-<h3>
-Spaß
-</h3>
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-<!-- KONTAKT -->
-
-
-<section id="kontakt" class="contact">
-
-
-<div class="container">
-
-
-<h2>
-Kontakt
-</h2>
-
-
-<form id="contactForm" action="https://formsubmit.co/acbd9f6ea58dcd55b1ffb26eba710a8e" method="POST">
-
-    <!-- Technische Steuerung für FormSubmit -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_subject" value="Neues Probetraining - TV Ehrenfeld">
-    <input type="hidden" name="_next" value="https://luqti.github.io/TV-Ehrenfeld-Damenvolleyball/">
-
-    <!-- UNSICHTBARER HONEYPOT (Das Design bleibt völlig unberührt) -->
-    <div style="display:none !important;">
-        <input type="text" name="_honey" autocomplete="off">
-    </div>
-
-
-    <label for="name">
-        Name
-    </label>
-
-    <input
-        id="name"
-		name="name"
-        type="text"
-        placeholder="Vor- und Nachname"
-        required>
-
-
-
-    <label for="email">
-        E-Mail
-    </label>
-
-    <input
-        id="email"
-		name="email"
-        type="email"
-        placeholder="E-Mail-Adresse"
-        required>
-
-
-
-    <label for="teamSelect">
-        Mannschaft
-    </label>
-
-    <select id="teamSelect" name="teamSelect" required>
-
-        <option value="">
-            Mannschaft auswählen
-        </option>
-
-    </select>
-
-
-
-    <label for="jahrgang">
-        Jahrgang
-    </label>
-
-    <input
-        id="jahrgang"
-		name="jahrgang"
-        type="number"
-        placeholder="z.B. 2012">
-
-
-
-    <label for="experience">
-        Volleyball-Erfahrung
-    </label>
-
-    <select id="experience" name="experience">
-
-        <option value="">
-            Bitte auswählen
-        </option>
-
-        <option>
-            Anfängerin
-        </option>
-
-        <option>
-            Erste Erfahrungen gesammelt
-        </option>
-
-        <option>
-            Mehrjährige Erfahrung
-        </option>
-
-        <option>
-            Aktive Spielerin
-        </option>
-
-    </select>
-
-
-
-    <label for="message">
-        Nachricht
-    </label>
-
-    <textarea
-        id="message"
-		name="message"
-        placeholder="Deine Nachricht an uns..."
-        rows="6"></textarea>
-
-
-
-    <label class="privacy">
-
-    <input
-        type="checkbox"
-        required>
-
-    <span>
-        Ich habe die <a href="pages/datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen.
-    </span>
-
-</label>
-
-
-
-    <button type="submit">
-
-        <img src="icons/paper-plane.svg" class="icon" alt="">
-
-        Nachricht senden
-
-    </button>
-
-
-</form>
-
-</div>
-
-
-</section>
-
-
-</main>
-
-
-
-
-
-<footer>
-
-    <div class="container">
-
-        <h3>
-            TV Ehrenfeld Damenvolleyball
-        </h3>
-
-        <p>
-            Gemeinsam trainieren. Gemeinsam wachsen. Gemeinsam gewinnen.
-        </p>
-
-        <div class="footer-links">        
-
-            <a href="pages/impressum.html" target="_blank">
-                Impressum
-            </a>
-
-            <a href="pages/datenschutz.html" target="_blank">
-                Datenschutz
-            </a>
-
-	    <a href="https://www.turn-verein-ehrenfeld.de/de" target="_blank" rel="noopener noreferrer">
-                Vereinsseite
-            </a>
-
-        </div>
-
-    </div>
-
-</footer>
-
-<div class="modal no-scroll" id="teamModal">
-
-    <div class="modal-content">
-
-        <button class="close-modal">&times;</button>
-
-        <div id="modalBody"></div>
-
-    </div>
-
-</div>
-
-<script src="js/teams.js"></script>
-<script src="js/script.js"></script>
-
+	<script src="js/teams.js"></script>
+	<script src="js/script.js"></script>
 
 </body>
 
