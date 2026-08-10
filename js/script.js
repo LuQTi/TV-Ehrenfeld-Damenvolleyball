@@ -466,7 +466,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Erst beim Laden der Seite im Browser wird der Link zusammengebaut
         mailLink.href = "mailto:" + user + "@" + domain;
-        mailLink.textContent = "E-Mail an TVE Damenvolleyball";
+        mailLink.innerHTML = '<img src="icons/envelope.svg" class="icon" alt=""> E-Mail an TVE Damenvolleyball';
     }
 });
 
