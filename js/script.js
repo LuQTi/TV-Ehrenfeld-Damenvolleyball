@@ -173,12 +173,11 @@ if(infoButton){
 
                     <br>
 
-                    <a
-                    href="${training.maps}"
-                    target="_blank"
-                    class="location">
+                    <a href="${training.maps}" target="_blank" class="location">
 
-                        📍 ${training.halle}
+                       <span class="location-pin">📍</span>
+
+                       <span class="location-text">${training.halle}</span>
 
                     </a>
 
