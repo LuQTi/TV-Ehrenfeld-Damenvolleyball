@@ -345,13 +345,7 @@
 
 
 
-.location {
-
-	display: inline-flex;
-	
-    align-items: flex-start;
-	
-    gap: 4px;    
+.location {   
 
     color:var(--blue);
 
@@ -363,14 +357,6 @@
 
 	text-decoration: none !important;
 
-	flex-shrink: 0;
-	
-    display: inline-block;
-
-}
-
-.location-text {
-    display: inline-block;
 }
 
 
