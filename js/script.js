@@ -226,14 +226,12 @@ if(team.training[0]) {
 
         <br><br>
 
-        <a 
-href="${team.training[0].maps}"
-target="_blank"
-class="location">
+        <a href="${team.training[0].maps}" target="_blank" class="location">
 
-📍 ${team.training[0].halle}
-
-</a>
+           <span class="location-pin">📍</span>
+           <span class="location-text">${team.training[0].halle}</span>
+           
+        </a>
 
     `;
 
@@ -256,14 +254,12 @@ if(team.training[1]) {
 
         <br><br>
 
-        <a 
-href="${team.training[1].maps}"
-target="_blank"
-class="location">
+        <a href="${team.training[1].maps}" target="_blank" class="location">
 
-📍 ${team.training[1].halle}
-
-</a>
+           <span class="location-pin">📍</span>
+           <span class="location-text">${team.training[1].halle}</span>
+           
+        </a>
 
     `;
 
