@@ -3,9 +3,10 @@
 <defs>
 <linearGradient id="heart-blau-gelb" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#005b9b" />
-      <stop offset="25%" stop-color="#005b9b" />
-      <stop offset="50%" stop-color="#00a3ad" />
-      <stop offset="75%" stop-color="#ffde1c" />
+      <stop offset="30%" stop-color="#005b9b" />
+      <stop offset="45%" stop-color="#558771" />
+      <stop offset="55%" stop-color="#aab246" />
+      <stop offset="70%" stop-color="#ffde1c" />
       <stop offset="100%" stop-color="#ffde1c" />
 </linearGradient>
 </defs>
