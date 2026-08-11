@@ -104,6 +104,35 @@
 
 }
 
+.modal-content .location {
+
+	display: inline-flex;
+	
+    align-items: flex-start;
+	
+    gap: 4px;    
+
+    color:var(--blue);
+
+    text-decoration:none;
+
+}
+
+.modal-content .location-pin {
+
+	text-decoration: none !important;
+
+	flex-shrink: 0;
+	
+    display: inline-block;
+
+}
+
+.modal-content .location-text {
+    display: inline-block;
+}
+
+
 @keyframes popup{
 
     from{
