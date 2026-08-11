@@ -347,16 +347,32 @@
 
 .location {
 
+	display: inline-flex;
+	
+    align-items: flex-start;
+	
+    gap: 6px;    
+
     color:var(--blue);
 
     text-decoration:none;
 
+	text-align: left;
+
 }
 
-.location .location-pin {
+.location-pin {
 
 	text-decoration: none !important;
 
+	flex-shrink: 0;
+	
+    display: inline-block;
+
+}
+
+.location-text {
+    display: inline-block;
 }
 
 
@@ -479,7 +495,7 @@ textarea:focus {
 #teamSelect, 
 #experience {
     cursor: pointer !important;
-    background: color: #ffffff;
+    background-color: #ffffff;
 }
 
 
