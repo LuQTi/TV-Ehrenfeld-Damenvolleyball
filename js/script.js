@@ -329,7 +329,7 @@ else {
 
 const animatedElements =
 document.querySelectorAll(
-    ".team-card, .feature-grid div, .welcome p, .training table, .contact form"
+    ".team-card, .feature-grid div, .welcome p, .training table, .contact .standard-kontakt, .contact .alternativ-kontakt"
 );
 
 
