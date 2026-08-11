@@ -351,13 +351,11 @@
 	
     align-items: flex-start;
 	
-    gap: 6px;    
+    gap: 4px;    
 
     color:var(--blue);
 
     text-decoration:none;
-
-	text-align: left;
 
 }
 
