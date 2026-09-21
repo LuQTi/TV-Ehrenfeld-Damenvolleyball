@@ -37,7 +37,7 @@ const teams = [
     {
         name: "U20",
         jahrgang: "Jahrgang 2008 und jünger",
-        liga: "",
+        liga: "Bezirksliga 3",
         link: "",
 
         training: [
@@ -57,7 +57,7 @@ const teams = [
     {
         name: "U18",
         jahrgang: "Jahrgang 2010 und jünger",
-        liga: "",
+        liga: "Bezirksliga 3",
         link: "https://www.turn-verein-ehrenfeld.de/de/TVE-Kursangebote/volleyball-mittwoch-kurs-79b",
 
         training: [
@@ -104,7 +104,7 @@ const teams = [
     {
         name: "U14",
         jahrgang: "Jahrgänge 2014 und jünger",
-        liga: "",
+        liga: "Bezirksliga",
         link: "https://www.turn-verein-ehrenfeld.de/de/TVE-Kursangebote/volleyball-mittwoch-kurs-79c",
 
         training: [
@@ -131,7 +131,7 @@ const teams = [
     {
         name: "U13",
         jahrgang: "Jahrgänge 2015 und jünger",
-        liga: "",
+        liga: "Bezirksliga",
         link: "",
 
         training: [
