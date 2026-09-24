@@ -151,7 +151,7 @@ const teams = [
     {
         name: "U12",
         jahrgang: "Jahrgang 2016 und jünger",
-        liga: "",
+        liga: "Turnierserie",
         link: "https://www.turn-verein-ehrenfeld.de/de/TVE-Kursangebote/volleyball-mittwoch-kurs-79a",
 
         training: [
